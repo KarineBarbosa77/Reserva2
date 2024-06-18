@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+   color: white;
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-style: italic; /*Fonte da letra*/
+}
+
+
+input,
+select,
+textarea {
+    background-color: black;
+    width: 100%;
+    padding: 8px; /*Tamanho da caixa de entrada*/
+    border: 1px solid white; /*Cor da borda*/
+    box-sizing: border-box;
+    border-radius:9px;/*Borda arrendondada no input*/
+
+}
+
+p{
+ font-style: italic;   
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
